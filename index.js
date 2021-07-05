@@ -14,6 +14,13 @@ $(document).ready(function () {
     $('html').animate({ scrollTop: 0 });
   });
 
+  // navbar link click slide
+  $('.navbar a').click(function (e) {
+    e.preventDefault();
+    const hash = this.hash;
+    $('html, body').animate({ scrollTop: $(hash).offset().top }, 800);
+  });
+
   // toggle menue bar button
   $('.menu-btn').click(function () {
     $('.navbar .menu').toggleClass('active');
