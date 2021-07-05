@@ -20,3 +20,17 @@ $(document).ready(function () {
     $('.menu-btn i').toggleClass('active');
   });
 });
+
+// typing anition script
+const typed = new Typed('.typing', {
+  strings: ['Developer', 'Resercher', 'Freelancer'],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true,
+});
+const typed2 = new Typed('.typing-2', {
+  strings: ['Developer', 'Resercher', 'Freelancer'],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true,
+});
