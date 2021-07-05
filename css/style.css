@@ -167,7 +167,7 @@ body {
 
 /* Apply to all similar content */
 section {
-  padding: 100px 0;
+  padding: 200px 0;
   width: 100%;
   height: 100vh;
   scroll-snap-align: center;
