@@ -9,7 +9,7 @@ $(document).ready(function () {
       : $('.scroll-up-btn').removeClass('show');
   });
 
-  // slide up script
+  // slide up button
   $('.scroll-up-btn').click(function () {
     $('html').animate({ scrollTop: 0 });
   });
@@ -30,13 +30,13 @@ $(document).ready(function () {
 
 // typing anition script
 const typed = new Typed('.typing', {
-  strings: ['Developer', 'Resercher', 'Freelancer'],
+  strings: ['frontend', 'React', 'Shopify'],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true,
 });
 const typed2 = new Typed('.typing-2', {
-  strings: ['Developer', 'Resercher', 'Freelancer'],
+  strings: ['frontend', 'React', 'Shopify'],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true,
